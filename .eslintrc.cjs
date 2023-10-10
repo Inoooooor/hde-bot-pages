@@ -19,13 +19,7 @@ module.exports = {
         math: "always",
       },
     ],
-    "vue/singleline-html-element-content-newline": [
-      "error",
-      {
-        ignoreWhenNoAttributes: true,
-        ignoreWhenEmpty: true,
-        ignores: ["pre", "textarea", "h1"],
-      },
-    ],
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/multiline-html-element-content-newline": "off",
   },
 }
