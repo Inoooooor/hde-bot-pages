@@ -62,6 +62,35 @@
         </div>
       </section>
     </div>
+    <div>
+      <section id="screenSecond">
+        <div
+          id="sectionTwoContent"
+          class="container"
+        >
+          <h2 class="fs-3 fw-bold">
+            Automate and grow your business with BotHelp
+          </h2>
+          <p class="">
+            We support WhatsApp, Instagram, Facebook Messenger, Telegram and
+            Viber.
+          </p>
+          <div class="d-flex">
+            <div class="channel-icon first-icon fs-1">
+              <i class="fa fa-whatsapp"></i>
+              <i class="fa fa-telegram"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-vk"></i>
+              <i class="fa fa-facebook"></i>
+              <i
+                class="fab fa-facebook-messenger"
+                style="font-size: 48px; color: red"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
 </template>
 

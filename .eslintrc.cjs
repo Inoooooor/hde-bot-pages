@@ -8,15 +8,15 @@ module.exports = {
   rules: {
     "vue/no-v-html": "off",
     "vue/html-self-closing": [
-      "error",
+      "warn",
       {
         html: {
           void: "always",
-          normal: "always",
-          component: "always",
+          normal: "never",
+          component: "never",
         },
         svg: "never",
-        math: "always",
+        math: "never",
       },
     ],
     "vue/singleline-html-element-content-newline": "off",
