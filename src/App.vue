@@ -1,48 +1,29 @@
 <script setup>
-// import HeroSvgBackground from "./components/HeroSvgBackground.vue"
-// import HeroPhoneImg from "./components/HeroPhoneImg.vue"
 import ScreenFirst from "./components/screenFirst.vue"
+import SecondScreenMessengers from "./components/SecondScreenMessengers.vue"
 </script>
 
 <template>
   <header class="py-3 position-fixed">HEADER</header>
   <main>
     <ScreenFirst />
-    <div>
-      <section id="screenSecond">
-        <div
-          id="sectionTwoContent"
-          class="container"
-        >
+    <section id="screenSecond">
+      <div
+        id="sectionTwoContent"
+        class="container"
+      >
+        <div class="text-center">
           <h2 class="fs-3 fw-bold">
             Automate and grow your business with BotHelp
           </h2>
-          <p class="">
+          <p class="p-4 fs-6 text-gray-500">
             We support WhatsApp, Instagram, Facebook Messenger, Telegram and
             Viber.
           </p>
-          <div class="d-flex fs-1">
-            <div class="">
-              <i class="fa fa-whatsapp"></i>
-            </div>
-            <div class="">
-              <i class="fa fa-telegram"></i>
-            </div>
-
-            <div class="">
-              <i class="fa fa-instagram"></i>
-            </div>
-
-            <div class="">
-              <i class="fa fa-vk"></i>
-            </div>
-            <div class="">
-              <i class="fa fa-facebook"></i>
-            </div>
-          </div>
+          <SecondScreenMessengers />
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </main>
 </template>
 
