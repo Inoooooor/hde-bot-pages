@@ -1,0 +1,105 @@
+<template>
+  <svg
+    width="3344"
+    height="1774"
+    viewBox="0 0 3344 1774"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    class="position-absolute -z-10 min-w-[400%]"
+  >
+    <path
+      d="M876.177 1757.34L1.94706 1646.29L0 0H2932.27C3074.41 0 3220.44 48.121 3309.03 196.186C3379.9 314.637 3326.87 458.384 3291.49 515.45L3055.99 954.577C3011.86 1036.87 2939.31 1102.15 2850.44 1139.5C2386.28 1334.6 1630.57 1652.57 1510.92 1702.74C1345.42 1772.15 1242.22 1774 1108.85 1774C1002.15 1774 909.277 1762.9 876.177 1757.34Z"
+      :fill="mainColor"
+    />
+    <mask
+      id="mask0"
+      mask-type="alpha"
+      maskUnits="userSpaceOnUse"
+      x="0"
+      y="0"
+      width="3345"
+      height="1774"
+    >
+      <path
+        d="M876.177 1757.34L1.94706 1646.29L0 0H2932.27C3074.41 0 3220.44 48.121 3309.03 196.186C3379.9 314.637 3326.87 458.384 3291.49 515.45L3055.99 954.577C3011.86 1036.87 2939.31 1102.15 2850.44 1139.5C2386.28 1334.6 1630.57 1652.57 1510.92 1702.74C1345.42 1772.15 1242.22 1774 1108.85 1774C1002.15 1774 909.277 1762.9 876.177 1757.34Z"
+        fill="url(#paint1_linear)"
+      />
+    </mask>
+    <g mask="url(#mask0)">
+      <path
+        d="M1281.57 1313.22C1072.05 1461.57 1220.24 1665.81 1320.52 1749.39L1245.55 1826L-25 1727.62V272H2778C2366.49 557.263 1491.09 1164.88 1281.57 1313.22Z"
+        fill="url(#paint2_radial)"
+        fill-opacity="0.1"
+      />
+      <path
+        d="M1425.47 -1378.95L2305.1 -345.512L614.296 954.889L-265.34 -78.548L1425.47 -1378.95Z"
+        fill="url(#paint3_radial)"
+        fill-opacity="0.1"
+      />
+    </g>
+    <defs>
+      <linearGradient
+        id="paint0_linear"
+        x1="1532.5"
+        y1="1567.5"
+        x2="1456.5"
+        y2="-32"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#FD7D6A" />
+        <stop
+          offset="1"
+          stop-color="#F64B3D"
+        />
+      </linearGradient>
+      <linearGradient
+        id="paint1_linear"
+        x1="1532.5"
+        y1="1567.5"
+        x2="1602.5"
+        y2="1.8724e-05"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#FB705F" />
+        <stop
+          offset="1"
+          stop-color="#D74331"
+        />
+      </linearGradient>
+      <radialGradient
+        id="paint2_radial"
+        cx="0"
+        cy="0"
+        r="1"
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(1303.5 2028.5) rotate(-121.94) scale(1429.99 2397.07)"
+      >
+        <stop stop-color="white" />
+        <stop
+          offset="1"
+          stop-color="white"
+          stop-opacity="0"
+        />
+      </radialGradient>
+      <radialGradient
+        id="paint3_radial"
+        cx="0"
+        cy="0"
+        r="1"
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(1045.16 -140.007) rotate(-113.556) scale(4320.85 985.032)"
+      >
+        <stop stop-color="white" />
+        <stop
+          offset="1"
+          stop-color="white"
+          stop-opacity="0"
+        />
+      </radialGradient>
+    </defs>
+  </svg>
+</template>
+
+<script setup>
+const mainColor = "#23879A"
+</script>

@@ -13,9 +13,9 @@ module.exports = {
         html: {
           void: "always",
           normal: "never",
-          component: "never",
+          component: "always",
         },
-        svg: "never",
+        svg: "always",
         math: "never",
       },
     ],

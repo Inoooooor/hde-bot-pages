@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import HeroSvgBackground from "./components/HeroSvgBackground.vue"
+</script>
 
 <template>
   <header class="py-3 position-fixed">HEADER</header>
@@ -7,6 +9,7 @@
       id="block-start"
       class="block-start"
     >
+      <HeroSvgBackground />
       <section
         id="screenTop"
         class="min-vh-100 container py-5"
@@ -20,16 +23,24 @@
               id="topText"
               class="col-12 col-sm-7 d-flex flex-column"
             >
-              <h1 class="fs-1 start-header fw-bold pb-0 mb-4 text-start">
+              <h1
+                class="fs-1 start-header fw-bold pb-0 mb-4 text-start text-white"
+              >
                 Acquire new customers and generate more sales on messaging apps
               </h1>
-              <p class="bg-slate-200 mb-5 fs-6">
+              <p class="mb-5 fs-6 text-white">
                 The leading no-code chatbot builder. Grow your subscriber list,
                 create bots and broadcast messages on WhatsApp, Instagram and
                 Messenger.
               </p>
               <!-- <button class="">Get started for free</button> -->
-              <div
+              <el-button
+                color="#23879A"
+                plain
+                class="col-7 fs-5 p-4"
+                >Get started for free</el-button
+              >
+              <!-- <div
                 class="short-try-form my-0 mb-5"
                 data-link="/poprobovat-besplatno"
               >
@@ -39,7 +50,7 @@
                   placeholder="Рабочая эл. почта"
                 />
                 <button class="">Попробовать бесплатно</button>
-              </div>
+              </div> -->
             </div>
             <div
               id="heroPhone"
@@ -75,17 +86,23 @@
             We support WhatsApp, Instagram, Facebook Messenger, Telegram and
             Viber.
           </p>
-          <div class="d-flex">
-            <div class="channel-icon first-icon fs-1">
+          <div class="d-flex fs-1">
+            <div class="">
               <i class="fa fa-whatsapp"></i>
+            </div>
+            <div class="">
               <i class="fa fa-telegram"></i>
+            </div>
+
+            <div class="">
               <i class="fa fa-instagram"></i>
+            </div>
+
+            <div class="">
               <i class="fa fa-vk"></i>
+            </div>
+            <div class="">
               <i class="fa fa-facebook"></i>
-              <i
-                class="fab fa-facebook-messenger"
-                style="font-size: 48px; color: red"
-              ></i>
             </div>
           </div>
         </div>
