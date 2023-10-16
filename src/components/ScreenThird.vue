@@ -54,9 +54,9 @@
 </template>
 
 <script setup>
-import MessangerIcon from "./Images/MessangerIcon.vue"
-import SendMessageIcon from "./Images/SendMessageIcon.vue"
-import FIlterIcon from "./Images/FIlterIcon.vue"
+import MessangerIcon from "./images/MessangerIcon.vue"
+import SendMessageIcon from "./images/SendMessageIcon.vue"
+import FIlterIcon from "./images/FIlterIcon.vue"
 </script>
 
 <style lang="scss" scoped></style>
