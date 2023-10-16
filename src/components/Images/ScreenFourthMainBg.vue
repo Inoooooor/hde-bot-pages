@@ -5,15 +5,16 @@
     height="1255"
     viewBox="0 0 3344 1255"
     fill="none"
+    class="position-absolute -z-10 min-w-[650%] max-h-none"
   >
     <g clip-path="url(#clip0)">
       <path
         d="M3344 -150.888C2369.28 49.7328 1224.76 43.4751 0 -150.888V1404.8C1148.41 1139.42 2707.84 1294.23 3344 1404.8V-150.888Z"
-        fill="#F75748"
+        fill="#23879A"
       />
       <path
         d="M3344 -150.888C2369.28 49.7328 1224.76 43.4751 0 -150.888V1404.8C1148.41 1139.42 2707.84 1294.23 3344 1404.8V-150.888Z"
-        fill="url(#paint0_linear)"
+        fill="#23879A"
         fill-opacity="0.46"
       />
       <mask
@@ -119,6 +120,8 @@
   </svg>
 </template>
 
-<script setup></script>
+<script setup>
+// const mainColor = "#23879A"
+</script>
 
 <style lang="scss" scoped></style>
