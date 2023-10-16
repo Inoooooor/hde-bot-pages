@@ -1,5 +1,4 @@
 <template>
-  <!-- <HeroSvgBackground /> -->
   <div class="background1">
     <section
       id="screenTop"
@@ -39,7 +38,6 @@
 </template>
 
 <script setup>
-// import HeroSvgBackground from "./images/HeroSvgBackground.vue"
 import HeroPhoneImg from "./images/HeroPhoneImg.vue"
 import HeroButton from "./UI/HeroButton.vue"
 </script>
