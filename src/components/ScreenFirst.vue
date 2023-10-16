@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-import HeroSvgBackground from "./HeroSvgBackground.vue"
-import HeroPhoneImg from "./HeroPhoneImg.vue"
+import HeroSvgBackground from "./Images/HeroSvgBackground.vue"
+import HeroPhoneImg from "./Images/HeroPhoneImg.vue"
 import HeroButton from "./UI/HeroButton.vue"
 </script>
