@@ -4,6 +4,7 @@
     class="section-fivth--tabs"
   >
     <el-tab-pane
+      lazy="true"
       label="Broadcasting"
       name="Broadcasting"
     >
@@ -30,6 +31,7 @@
       </div>
     </el-tab-pane>
     <el-tab-pane
+      lazy="true"
       label="Analytics"
       name="Analytics"
     >
@@ -56,6 +58,7 @@
       </div>
     </el-tab-pane>
     <el-tab-pane
+      lazy="true"
       label="Flow Builder"
       name="Flow Builder"
     >
@@ -83,6 +86,7 @@
       </div>
     </el-tab-pane>
     <el-tab-pane
+      lazy="true"
       label="Conversations"
       name="Conversations"
     >
@@ -112,6 +116,7 @@
       </div>
     </el-tab-pane>
     <el-tab-pane
+      lazy="true"
       label="Subscriber list"
       name="Subscriber list"
     >
@@ -155,5 +160,9 @@ const activeName = ref("Broadcasting")
 
 .section-fivth--tabs .el-tabs__active-bar {
   background-color: #23879a;
+}
+
+.section-fivth--tabs .el-tabs__nav-wrap::after {
+  background-color: rgb(172, 172, 172);
 }
 </style>

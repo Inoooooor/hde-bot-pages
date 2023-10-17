@@ -1,8 +1,5 @@
 <template>
-  <section
-    id="screenFourth"
-    class="mb-4"
-  >
+  <section id="screenFourth">
     <div class="background2">
       <div class="container">
         <div
