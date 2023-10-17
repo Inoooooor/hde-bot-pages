@@ -3,7 +3,8 @@ import ScreenFirst from "./components/ScreenFirst.vue"
 import SecondScreen from "./components/SecondScreen.vue"
 import ScreenThird from "./components/ScreenThird.vue"
 import ScreenFourth from "./components/ScreenFourth.vue"
-import ScreenFivthTabs from "./components/UI/ScreenFivthTabs.vue"
+// import ScreenFivthTabs from "./components/UI/ScreenFivthTabs.vue"
+import ScreenFivth from "./components/ScreenFivth.vue"
 </script>
 
 <template>
@@ -13,23 +14,13 @@ import ScreenFivthTabs from "./components/UI/ScreenFivthTabs.vue"
     <SecondScreen />
     <ScreenThird />
     <ScreenFourth />
-    <section
-      id="screenFivth"
-      class="mb-4"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="d-flex py-2">
-            <h2 class="fs-3 fw-bold">How does it work?</h2>
-          </div>
-        </div>
-        <div class="row">
-          <ScreenFivthTabs />
-        </div>
-      </div>
-    </section>
+    <ScreenFivth />
     <section class="min-vh-100"></section>
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+.background-solid {
+  background-color: #23869a10;
+}
+</style>
