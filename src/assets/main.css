@@ -5,3 +5,7 @@
 body {
   opacity: 1;
 }
+
+.background-solid {
+  background-color: #23869a10;
+}
