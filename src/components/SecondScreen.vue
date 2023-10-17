@@ -11,7 +11,7 @@
         <h2 class="fs-3 fw-bold">
           Automate and grow your business with BotHelp
         </h2>
-        <p class="p-4 fs-6 text-gray-500">
+        <p class="py-4 fs-6 text-gray-500">
           We support WhatsApp, Instagram, Facebook Messenger, Telegram and
           Viber.
         </p>

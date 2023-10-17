@@ -10,7 +10,7 @@
         >
           <StarIcon />
           <h2 class="fs-3 fw-bold">Why HelpDeskEddy?</h2>
-          <p class="p-4 fs-6">
+          <p class="py-4 fs-6">
             HelpDeskEddy is an all-in-one platform that helps you sell on
             WhatsApp, Instagram, Facebook, Telegram and Viber. It’s ideal for
             marketers and digital product owners.
