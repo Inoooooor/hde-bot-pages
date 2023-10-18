@@ -31,7 +31,7 @@ import PlanCard from "./components/UI/PlanCard.vue"
         <div class="row">
           <div class="d-flex flex-column">
             <PlanCard plan-type="free" />
-            <div>card pro</div>
+            <PlanCard plan-type="pro" />
             <div>card business</div>
           </div>
         </div>
