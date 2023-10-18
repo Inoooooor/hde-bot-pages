@@ -12,7 +12,7 @@
           >
             <div
               id="topText"
-              class="col-12 col-sm-7 d-flex flex-column"
+              class="col-12 col-sm-6 d-flex flex-column"
             >
               <h1 class="fs-1 fw-bold pb-0 mb-4 text-start text-white pt-5">
                 Acquire new customers and generate more sales on messaging apps
@@ -26,7 +26,7 @@
             </div>
             <div
               id="heroPhone"
-              class="d-flex justify-content-center align-content-center col-8 col-sm-4 p-xl-5"
+              class="d-flex justify-content-center align-content-center col-8 col-sm-3 p-xl-4"
             >
               <HeroPhoneImg />
             </div>
