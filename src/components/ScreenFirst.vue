@@ -2,13 +2,13 @@
   <div class="background1">
     <section
       id="screenTop"
-      class="min-vh-100 py-5"
+      class="py-5 mb-5"
     >
       <div class="container">
         <div class="row">
           <div
             id="contentTop"
-            class="d-flex flex-column flex-sm-row align-items-center justify-content-between"
+            class="d-flex flex-column flex-sm-row align-items-center justify-content-between justify-content-xl-evenly"
           >
             <div
               id="topText"
@@ -26,7 +26,7 @@
             </div>
             <div
               id="heroPhone"
-              class="d-flex justify-content-center align-content-center col-8 col-sm-4"
+              class="d-flex justify-content-center align-content-center col-8 col-sm-4 p-xl-5"
             >
               <HeroPhoneImg />
             </div>
