@@ -37,7 +37,6 @@
 </template>
 
 <script setup>
-import { computed } from "vue"
 import PlanButton from "./PlanButton.vue"
 const props = defineProps({
   planType: {
@@ -49,9 +48,7 @@ const props = defineProps({
   },
 })
 
-const isProPlan = computed(() => {
-  return props.planType === "pro"
-})
+const isProPlan = props.planType === "pro"
 
 const plans = {
   free: {
@@ -80,8 +77,21 @@ const plans = {
     ],
     buttonText: "Start Trial",
   },
+  business: {
+    header: "Business",
+    description: "Get access to all features in Pro and custom services",
+    price: "Contact us",
+    planList: [
+      "Unlimited subscribers",
+      "Unlimited agents",
+      "Unlimited Flows, Chatbots and Growth Tools",
+      "WhatsApp Business API, Instagram, FB Messenger, Telegram, Viber",
+      "API and Integrations",
+      "Customer service and dedicated account manager",
+    ],
+    buttonText: "Contact us",
+  },
 }
-console.log(props.planType)
 </script>
 
 <style>
