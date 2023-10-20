@@ -6,7 +6,6 @@ import ScreenFourth from "./components/ScreenFourth.vue"
 import ScreenFivth from "./components/ScreenFivth.vue"
 import ScreenSixth from "./components/ScreenSixth.vue"
 import ScreenSeventh from "./components/ScreenSeventh.vue"
-// import FreeTrialButton from "./components/UI/FreeTrialButton.vue"
 </script>
 
 <template>
