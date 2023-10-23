@@ -17,7 +17,7 @@
               <h1 class="fs-1 fw-bold pb-0 mb-4 text-start text-white pt-5">
                 Acquire new customers and generate more sales on messaging apps
               </h1>
-              <p class="mb-5 fs-6 text-white">
+              <p class="mb-5 text-base lg:text-2xl text-white">
                 The leading no-code chatbot builder. Grow your subscriber list,
                 create bots and broadcast messages on WhatsApp, Instagram and
                 Messenger.
