@@ -1,7 +1,7 @@
 <template>
   <section
     id="screenSecond"
-    class="mb-5"
+    class="mb-5 py-5"
   >
     <div
       id="sectionTwoContent"
