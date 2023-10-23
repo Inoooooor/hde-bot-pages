@@ -151,6 +151,7 @@ const activeName = ref("Broadcasting")
 <style>
 .section-fivth--tabs .el-tabs__item {
   font-size: 1rem;
+  color: #23879a;
 }
 
 .section-fivth--tabs .el-tabs__item.is-active {
