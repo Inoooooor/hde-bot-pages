@@ -2,6 +2,7 @@
   <el-tabs
     v-model="activeName"
     class="section-fivth--tabs"
+    stretch
   >
     <el-tab-pane
       lazy="true"
@@ -18,14 +19,12 @@
           <img
             src="https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da172050951638bc6cd5ea_tab-01-en.jpg"
             loading="lazy"
-            sizes="90vw"
-            width="980"
-            alt=""
+            alt="broadcasting-img"
             srcset="
               https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da172050951638bc6cd5ea_tab-01-en-p-800.jpeg 800w,
               https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da172050951638bc6cd5ea_tab-01-en.jpg        980w
             "
-            class="position-static shadow"
+            class="position-static shadow sm:w-2/3"
           />
         </div>
       </div>
@@ -52,7 +51,7 @@
               https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da1720d75a7372dff47a10_tab-02-en-p-800.jpeg 800w,
               https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da1720d75a7372dff47a10_tab-02-en.jpg        980w
             "
-            class="position-static shadow"
+            class="position-static shadow sm:w-2/3"
           />
         </div>
       </div>
@@ -80,7 +79,7 @@
               https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da17216e72f50b89967e98_tab-03-en-p-1600.jpeg 1600w,
               https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da17216e72f50b89967e98_tab-03-en.jpg         1870w
             "
-            class="position-static shadow"
+            class="position-static shadow sm:w-2/3"
           />
         </div>
       </div>
@@ -110,7 +109,7 @@
               https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da1722a0df361cafd45790_tab-04-en-p-1600.jpeg 1600w,
               https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da1722a0df361cafd45790_tab-04-en.jpg         1858w
             "
-            class="position-static shadow"
+            class="position-static shadow sm:w-2/3"
           />
         </div>
       </div>
@@ -136,7 +135,7 @@
               https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da1721b04d99bca3e6c439_tab-05-en.jpg        863w
             "
             alt=""
-            class="position-static shadow"
+            class="position-static shadow sm:w-2/3"
           />
         </div>
       </div>
