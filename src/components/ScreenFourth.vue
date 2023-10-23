@@ -7,8 +7,8 @@
             class="d-flex flex-column align-items-center text-center text-white pt-5 mb-4 col-lg-4 justify-content-lg-center"
           >
             <StarIcon />
-            <h2 class="fs-3 fw-bold">Why HelpDeskEddy?</h2>
-            <p class="py-4 fs-6">
+            <h2 class="fw-bold text-2xl lg:text-4xl">Why HelpDeskEddy?</h2>
+            <p class="py-4 text-base lg:text-2xl">
               HelpDeskEddy is an all-in-one platform that helps you sell on
               WhatsApp, Instagram, Facebook, Telegram and Viber. It’s ideal for
               marketers and digital product owners.
@@ -25,8 +25,10 @@
                 class="me-4 w-[45px] h-[45px]"
               />
               <div class="d-flex flex-column justify-content-center">
-                <h3 class="fs-6 fw-bold mb-2">Multi-channel chatbot builder</h3>
-                <p class="">
+                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">
+                  Multi-channel chatbot builder
+                </h3>
+                <p class="text-base lg:text-xl">
                   The visual and intuitive no-code chatbot builder.
                 </p>
               </div>
@@ -39,8 +41,12 @@
                 class="me-4 w-[45px] h-[45px]"
               />
               <div class="d-flex flex-column justify-content-center">
-                <h3 class="fs-6 fw-bold mb-2">Subscriber base</h3>
-                <p class="">Segment and manage your subscriber base.</p>
+                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">
+                  Subscriber base
+                </h3>
+                <p class="text-base lg:text-xl">
+                  Segment and manage your subscriber base.
+                </p>
               </div>
             </div>
             <div class="d-flex mb-4 mb-lg-0 py-lg-5 col-lg-5">
@@ -51,8 +57,8 @@
                 class="me-4 w-[45px] h-[45px]"
               />
               <div class="d-flex flex-column justify-content-center">
-                <h3 class="fs-6 fw-bold mb-2">Growth tools</h3>
-                <p class="">
+                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">Growth tools</h3>
+                <p class="text-base lg:text-xl">
                   Ready-made growth tools for websites, Instagram and Facebook
                   to help acquire new subscribers.
                 </p>
@@ -66,8 +72,10 @@
                 class="me-4 w-[45px] h-[45px]"
               />
               <div class="d-flex flex-column justify-content-center">
-                <h3 class="fs-6 fw-bold mb-2">Broadcasts</h3>
-                <p class="">Engage with prospects and send tailored content.</p>
+                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">Broadcasts</h3>
+                <p class="text-base lg:text-xl">
+                  Engage with prospects and send tailored content.
+                </p>
               </div>
             </div>
             <div class="d-flex mb-4 mb-lg-0 py-lg-5 col-lg-5">
@@ -78,8 +86,8 @@
                 class="me-4 w-[45px] h-[45px]"
               />
               <div class="d-flex flex-column justify-content-center">
-                <h3 class="fs-6 fw-bold mb-2">Analytics</h3>
-                <p class="">
+                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">Analytics</h3>
+                <p class="text-base lg:text-xl">
                   Get detailed analytics on conversions and traffic sources.
                 </p>
               </div>
@@ -92,8 +100,8 @@
                 class="me-4 w-[45px] h-[45px]"
               />
               <div class="d-flex flex-column justify-content-center">
-                <h3 class="fs-6 fw-bold mb-2">Chat center</h3>
-                <p class="">
+                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">Chat center</h3>
+                <p class="text-base lg:text-xl">
                   Respond to clients in different messengers from a single
                   window.
                 </p>
