@@ -1,7 +1,7 @@
 <template>
   <el-card
     body-class="px-4"
-    class="border-2 hover:border-[#23879A] mb-3 position-relative"
+    class="border-2 hover:border-[#23879A] mb-3 position-relative col-md-4 md:w-[32%] pb-md-4"
   >
     <template #header>
       <template v-if="isProPlan">
@@ -33,6 +33,16 @@
       </li>
     </ul>
     <PlanButton :button-text="plans[planType].buttonText" />
+    <div
+      v-if="isProPlan"
+      class="d-flex justify-content-center pt-4"
+    >
+      <a
+        class="fs-6 underline decoration-[#23879A] underline-offset-8 text-[#23879A] hover:text-[#23879A] hover:cursor-pointer"
+        target="_blank"
+        >View all pricing tiers
+      </a>
+    </div>
   </el-card>
 </template>
 

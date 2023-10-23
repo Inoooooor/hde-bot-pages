@@ -12,7 +12,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="d-flex flex-column">
+        <div
+          class="d-flex flex-column flex-md-row justify-content-md-around align-items-md-start"
+        >
           <PlanCard plan-type="free" />
           <PlanCard plan-type="pro" />
           <PlanCard plan-type="business" />
