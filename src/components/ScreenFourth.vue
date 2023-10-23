@@ -1,8 +1,14 @@
 <template>
   <section id="screenFourth">
+    <div class="d-none d-lg-flex justify-content-lg-center">
+      <img
+        src="../images/background-2-top.svg"
+        alt=""
+      />
+    </div>
     <div class="background2">
       <div class="container">
-        <div class="d-flex flex-column flex-lg-row-reverse">
+        <div class="d-flex flex-column flex-lg-row-reverse py-lg-5">
           <div
             class="d-flex flex-column align-items-center text-center text-white pt-5 mb-4 col-lg-4 justify-content-lg-center"
           >
@@ -111,6 +117,12 @@
         </div>
       </div>
     </div>
+    <div class="d-none d-lg-flex justify-content-lg-center">
+      <img
+        src="../images/background-2-bot.svg"
+        alt=""
+      />
+    </div>
   </section>
 </template>
 
@@ -123,5 +135,6 @@ import StarIcon from "./images/StarIcon.vue"
   background-image: url("../images/background-2.svg");
   background-position: 50%;
   background-attachment: scroll;
+  background-repeat: no-repeat;
 }
 </style>
