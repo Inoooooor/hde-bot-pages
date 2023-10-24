@@ -18,7 +18,6 @@
     </div>
     <el-image
       :src="contentMap[cardOrder].imageSrc"
-      lazy
       class="col-6 p-sm-5 col-lg-5 col-xl-4"
     />
   </div>

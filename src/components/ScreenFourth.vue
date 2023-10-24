@@ -26,7 +26,6 @@
             <div class="d-flex mb-4 mb-lg-0 py-lg-5 col-lg-5">
               <img
                 src="https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60cc74917f4df790f25e65e8_i-sm-01.svg"
-                loading="lazy"
                 alt=""
                 class="me-4 w-[45px] h-[45px]"
               />
@@ -42,7 +41,6 @@
             <div class="d-flex mb-4 mb-lg-0 py-lg-5 col-lg-5">
               <img
                 src="https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60cc7491b03c622f2db7a7e8_i-sm-03.svg"
-                loading="lazy"
                 alt=""
                 class="me-4 w-[45px] h-[45px]"
               />
@@ -58,7 +56,6 @@
             <div class="d-flex mb-4 mb-lg-0 py-lg-5 col-lg-5">
               <img
                 src="https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60cc7491521f5d2664de3a60_i-sm-05.svg"
-                loading="lazy"
                 alt=""
                 class="me-4 w-[45px] h-[45px]"
               />
@@ -73,7 +70,6 @@
             <div class="d-flex mb-4 mb-lg-0 py-lg-5 col-lg-5">
               <img
                 src="https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60cc74919f1dda72666e437d_i-sm-02.svg"
-                loading="lazy"
                 alt=""
                 class="me-4 w-[45px] h-[45px]"
               />
@@ -87,7 +83,6 @@
             <div class="d-flex mb-4 mb-lg-0 py-lg-5 col-lg-5">
               <img
                 src="https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60cc74919f1ddab1ce6e4383_i-sm-04.svg"
-                loading="lazy"
                 alt=""
                 class="me-4 w-[45px] h-[45px]"
               />
@@ -101,7 +96,6 @@
             <div class="d-flex mb-4 mb-lg-0 py-lg-5 col-lg-5">
               <img
                 src="https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60cc74910261301164fda893_i-sm-06.svg"
-                loading="lazy"
                 alt=""
                 class="me-4 w-[45px] h-[45px]"
               />

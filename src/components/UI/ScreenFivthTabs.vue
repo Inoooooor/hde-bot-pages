@@ -5,7 +5,6 @@
     stretch
   >
     <el-tab-pane
-      lazy="true"
       label="Broadcasting"
       name="Broadcasting"
     >
@@ -18,7 +17,6 @@
         <div class="d-flex justify-content-center pb-4">
           <img
             src="https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da172050951638bc6cd5ea_tab-01-en.jpg"
-            loading="lazy"
             alt="broadcasting-img"
             srcset="
               https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da172050951638bc6cd5ea_tab-01-en-p-800.jpeg 800w,
@@ -30,7 +28,6 @@
       </div>
     </el-tab-pane>
     <el-tab-pane
-      lazy="true"
       label="Analytics"
       name="Analytics"
     >
@@ -42,7 +39,6 @@
         <div class="d-flex justify-content-center pb-4">
           <img
             src="https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da1720d75a7372dff47a10_tab-02-en.jpg"
-            loading="lazy"
             width="980"
             sizes="90vw"
             alt=""
@@ -57,7 +53,6 @@
       </div>
     </el-tab-pane>
     <el-tab-pane
-      lazy="true"
       label="Flow Builder"
       name="Flow Builder"
     >
@@ -69,7 +64,6 @@
         <div class="d-flex justify-content-center pb-4">
           <img
             src="https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da17216e72f50b89967e98_tab-03-en.jpg"
-            loading="lazy"
             width="980"
             sizes="90vw"
             alt=""
@@ -85,7 +79,6 @@
       </div>
     </el-tab-pane>
     <el-tab-pane
-      lazy="true"
       label="Conversations"
       name="Conversations"
     >
@@ -98,7 +91,6 @@
         <div class="d-flex justify-content-center pb-4">
           <img
             src="https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da1722a0df361cafd45790_tab-04-en.jpg"
-            loading="lazy"
             width="980"
             sizes="90vw"
             alt=""
@@ -115,7 +107,6 @@
       </div>
     </el-tab-pane>
     <el-tab-pane
-      lazy="true"
       label="Subscriber list"
       name="Subscriber list"
     >
@@ -127,7 +118,6 @@
         <div class="d-flex justify-content-center pb-4">
           <img
             src="https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da1721b04d99bca3e6c439_tab-05-en.jpg"
-            loading="lazy"
             sizes="90vw"
             srcset="
               https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da1721b04d99bca3e6c439_tab-05-en-p-500.jpeg 500w,
