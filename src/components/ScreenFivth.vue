@@ -6,7 +6,7 @@
     <div class="container">
       <div class="row">
         <div class="d-flex py-4">
-          <h2 class="fs-3 fw-bold">How does it work?</h2>
+          <h2 class="fs-3 fw-bold">Как это работает?</h2>
         </div>
       </div>
       <div class="row">
