@@ -35,25 +35,25 @@ const contentMap = {
   1: {
     imageSrc:
       "https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da07944d2c9cbb2c545bc8_img-2-en.png",
-    textHeader: "Capture leads and accelerate sales via messengers",
+    textHeader: "Привлекайте клиентов",
     textBody:
-      "Link your ads, website and social media profiles directly to a conversation, and help to simplify the buying process for both you and your customers.",
+      "Конвертируйте трафик из соцсетей и других источников, и собирайте e-mail и телефон клиентов прямо в мессенджерах. Весь процесс полностью автоматизирован и не требует человеческого вмешательства.",
     isFlexReversed: true,
   },
   2: {
     imageSrc:
       "https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da07946d6122f5120e6bf4_img-3-en.png",
-    textHeader: "Send messages with an 80% open rate",
+    textHeader: "Отвечайте на сообщения мгновенно",
     textBody:
-      "Segment your audience using tags and attributes and broadcast personalized messages in just a few clicks. The messenger channel works much better than email, and it allows you to initiate a conversation and close deals within the chat itself.",
+      "Бот моментально поздоровается при новом обращении клиента, соберет необходимую информацию и сам ответит на шаблонные вопросы.",
     isFlexReversed: false,
   },
   3: {
     imageSrc:
       "https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da079577254763204d8342_img-4-en.png",
-    textHeader: "Automate sales funnels",
+    textHeader: "Чат-боты в мессенджерах",
     textBody:
-      "Build sequences and chatbots to automate the sales or lead qualification process – without coding. Bots can help you give a coupon, ask common questions or share content..",
+      "Создавайте полезные чат-боты и вариативные сценарии поддержки в мессенджерах при помощи визуального конструктора чат-ботов. Без программирования и технических навыков.",
     isFlexReversed: true,
   },
 }
