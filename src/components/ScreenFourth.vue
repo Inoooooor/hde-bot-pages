@@ -13,11 +13,12 @@
             class="d-flex flex-column align-items-center text-center text-white pt-5 mb-4 col-lg-4 justify-content-lg-center"
           >
             <StarIcon />
-            <h2 class="fw-bold text-2xl lg:text-4xl">Why HelpDeskEddy?</h2>
+            <h2 class="fw-bold text-2xl lg:text-4xl">Почему HelpDeskEddy?</h2>
             <p class="py-4 text-base lg:text-2xl">
-              HelpDeskEddy is an all-in-one platform that helps you sell on
-              WhatsApp, Instagram, Facebook, Telegram and Viber. It’s ideal for
-              marketers and digital product owners.
+              HelpDeskEddy – это многофункциональная платформа, помогающая
+              оказывать поддержку в соцсетях, мессенджерах, чате, из почты и по
+              телефону. Она идеально подходит для компаний желающих
+              предоставлять лучший клиентский сервис.
             </p>
           </div>
           <div
@@ -31,10 +32,11 @@
               />
               <div class="d-flex flex-column justify-content-center">
                 <h3 class="fw-bold mb-2 text-xl lg:text-2xl">
-                  Multi-channel chatbot builder
+                  Мультиканальный конструктор-ботов
                 </h3>
                 <p class="text-base lg:text-xl">
-                  The visual and intuitive no-code chatbot builder.
+                  Визуальный и интуитивно понятный конструктор ботов без
+                  привлечения разработчиков.
                 </p>
               </div>
             </div>
@@ -45,11 +47,9 @@
                 class="me-4 w-[45px] h-[45px]"
               />
               <div class="d-flex flex-column justify-content-center">
-                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">
-                  Subscriber base
-                </h3>
+                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">База клиентов</h3>
                 <p class="text-base lg:text-xl">
-                  Segment and manage your subscriber base.
+                  Создайте клиентскую базу и управляйте ею.
                 </p>
               </div>
             </div>
@@ -60,10 +60,12 @@
                 class="me-4 w-[45px] h-[45px]"
               />
               <div class="d-flex flex-column justify-content-center">
-                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">Growth tools</h3>
+                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">
+                  Контроль обращений
+                </h3>
                 <p class="text-base lg:text-xl">
-                  Ready-made growth tools for websites, Instagram and Facebook
-                  to help acquire new subscribers.
+                  Сотрудник в любой момент может вмешаться для помощи клиенту,
+                  если бот не смог решить его вопрос.
                 </p>
               </div>
             </div>
@@ -74,9 +76,12 @@
                 class="me-4 w-[45px] h-[45px]"
               />
               <div class="d-flex flex-column justify-content-center">
-                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">Broadcasts</h3>
+                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">
+                  Простое ценообразование
+                </h3>
                 <p class="text-base lg:text-xl">
-                  Engage with prospects and send tailored content.
+                  Бесплатные обращения в зависимости от количества сотрудников в
+                  системе или докупите пакет при превышении лимитов.
                 </p>
               </div>
             </div>
@@ -87,9 +92,10 @@
                 class="me-4 w-[45px] h-[45px]"
               />
               <div class="d-flex flex-column justify-content-center">
-                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">Analytics</h3>
+                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">Аналитика</h3>
                 <p class="text-base lg:text-xl">
-                  Get detailed analytics on conversions and traffic sources.
+                  Получайте развернутую аналитику по заявкам, качеству и
+                  скорости обслуживания.
                 </p>
               </div>
             </div>
@@ -100,10 +106,12 @@
                 class="me-4 w-[45px] h-[45px]"
               />
               <div class="d-flex flex-column justify-content-center">
-                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">Chat center</h3>
+                <h3 class="fw-bold mb-2 text-xl lg:text-2xl">
+                  Центр поддержки
+                </h3>
                 <p class="text-base lg:text-xl">
-                  Respond to clients in different messengers from a single
-                  window.
+                  Создайте чат-бота для приёма обращений от клиентов. Отвечайте
+                  клиентам в разных мессенджерах из единого интерфейса.
                 </p>
               </div>
             </div>
