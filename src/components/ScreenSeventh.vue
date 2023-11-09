@@ -1,5 +1,5 @@
 <template>
-  <section id="sectionSixth">
+  <section id="screenSeventh">
     <div class="container">
       <div class="row pb-5">
         <div class="text-center py-4">
