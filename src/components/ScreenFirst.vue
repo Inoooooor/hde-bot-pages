@@ -15,12 +15,12 @@
               class="col-12 col-sm-7 d-flex flex-column"
             >
               <h1 class="fs-1 fw-bold pb-0 mb-4 text-start text-white pt-5">
-                Acquire new customers and generate more sales on messaging apps
+                Автоматизируйте и ускорьте обработку обращений с помощью
+                чат-ботов
               </h1>
               <p class="mb-5 text-base lg:text-2xl text-white">
-                The leading no-code chatbot builder. Grow your subscriber list,
-                create bots and broadcast messages on WhatsApp, Instagram and
-                Messenger.
+                Конструктор HelpDeskEddy – интуитивно понятный конструктор
+                чат-ботов для мессенджеров, соцсетей или чатов.
               </p>
               <HeroButton />
             </div>
