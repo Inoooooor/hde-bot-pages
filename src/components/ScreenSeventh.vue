@@ -9,10 +9,10 @@
               alt="free trial icon"
             />
           </div>
-          <h2 class="fs-3 fw-bold">Try it for free</h2>
+          <h2 class="fs-3 fw-bold">Попробовать бесплатно</h2>
           <p class="py-4 fs-6 text-gray-500">
-            Try HelpDeskEddy for free – no coding experience is needed. It’s
-            easy, fun and proven to get results.
+            14 дней тестового периода, без ограничений функционала, количества
+            заявок или клиентов.
           </p>
           <FreeTrialButton />
         </div>
