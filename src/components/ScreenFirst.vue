@@ -12,7 +12,7 @@
           >
             <div
               id="topText"
-              class="col-12 col-sm-7 d-flex flex-column"
+              class="col-12 col-sm-7 d-flex flex-column mb-4"
             >
               <h1 class="fs-1 fw-bold pb-0 mb-4 text-start text-white pt-5">
                 Автоматизируйте и ускорьте обработку обращений с помощью
@@ -26,7 +26,7 @@
             </div>
             <div
               id="heroPhone"
-              class="d-flex justify-content-center align-content-center col-8 col-sm-3 p-xl-4"
+              class="d-flex justify-content-center align-content-center col-8 col-sm-5 col-xl-4 p-xl-4"
             >
               <HeroPhoneImg />
             </div>
