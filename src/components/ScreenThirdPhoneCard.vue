@@ -16,14 +16,47 @@
         {{ contentMap[cardOrder].textBody }}
       </p>
     </div>
-    <el-image
+    <!-- <el-image
       :src="contentMap[cardOrder].imageSrc"
       class="col-6 p-sm-5 col-lg-5 col-xl-4"
-    />
+    /> -->
+    <video
+      id="my-video"
+      ref="video"
+      class="video-js col-9 col-sm-5 col-lg-5 col-xl-4 bg-white"
+      preload="auto"
+      poster="../images/attract-customers-poster.jpg"
+      data-setup="{}"
+      muted
+      autoplay
+      playsinline
+      loop
+    >
+      <source
+        src="../images/attract-customers-test.mp4"
+        type="video/mp4"
+      />
+      <!-- <source
+        src="../images/attract-customers.webm"
+        type="video/webm"
+      /> -->
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a
+          href="https://videojs.com/html5-video-support/"
+          target="_blank"
+          >supports HTML5 video
+        </a>
+      </p>
+    </video>
   </div>
 </template>
 
 <script setup>
+// import { ref, onMounted } from "vue"
+// const video = ref(null)
+// onMounted(() => console.log(video.value.play()))
 defineProps({
   cardOrder: {
     type: String,
@@ -63,4 +96,4 @@ import SendMessageIcon from "./images/SendMessageIcon.vue"
 import FIlterIcon from "./images/FIlterIcon.vue"
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="css" scoped></style>
