@@ -137,6 +137,5 @@ import StarIcon from "./images/StarIcon.vue"
   background-image: url("../images/background-2.svg");
   background-position: 50%;
   background-attachment: scroll;
-  background-repeat: no-repeat;
 }
 </style>
