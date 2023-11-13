@@ -16,16 +16,12 @@
         {{ contentMap[cardOrder].textBody }}
       </p>
     </div>
-    <!-- <el-image
-      :src="contentMap[cardOrder].imageSrc"
-      class="col-6 p-sm-5 col-lg-5 col-xl-4"
-    /> -->
     <video
+      v-if="isVideo"
       id="my-video"
-      ref="video"
       class="video-js col-9 col-sm-5 col-lg-5 col-xl-4 bg-white"
       preload="auto"
-      poster="../images/attract-customers-poster.jpg"
+      :poster="contentMap[cardOrder].posterSrc"
       data-setup="{}"
       muted
       autoplay
@@ -33,7 +29,8 @@
       loop
     >
       <source
-        src="../images/attract-customers-test.mp4"
+        ref="source"
+        :src="contentMap[cardOrder].videoSrc"
         type="video/mp4"
       />
       <!-- <source
@@ -50,40 +47,55 @@
         </a>
       </p>
     </video>
+    <el-image
+      v-else
+      :src="contentMap[cardOrder].posterSrc"
+      class="col-12 col-sm-5 col-lg-5 col-xl-4"
+    />
   </div>
 </template>
 
 <script setup>
-// import { ref, onMounted } from "vue"
-// const video = ref(null)
-// onMounted(() => console.log(video.value.play()))
-defineProps({
+import MessangerIcon from "./images/MessangerIcon.vue"
+import SendMessageIcon from "./images/SendMessageIcon.vue"
+import FIlterIcon from "./images/FIlterIcon.vue"
+import { ref, onMounted } from "vue"
+
+const source = ref(null)
+
+const props = defineProps({
   cardOrder: {
     type: String,
     default: "1",
   },
 })
 
+const isVideo = props.cardOrder !== "2"
+
 const contentMap = {
   1: {
-    imageSrc:
+    posterSrc:
       "https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da07944d2c9cbb2c545bc8_img-2-en.png",
+    mp4Src: "../src/images/attract-customers.mp4",
+    webmSrc: "../images/attract-customers.webm",
     textHeader: "Привлекайте клиентов",
     textBody:
       "Конвертируйте трафик из соцсетей и других источников, и собирайте e-mail и телефон клиентов прямо в мессенджерах. Весь процесс полностью автоматизирован и не требует человеческого вмешательства.",
     isFlexReversed: true,
   },
   2: {
-    imageSrc:
-      "https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da07946d6122f5120e6bf4_img-3-en.png",
+    posterSrc: "../src/images/immediate-response.png",
+    mp4Src: "../images/attract-customers.mp4",
+    webmSrc: "../images/attract-customers.webm",
     textHeader: "Отвечайте на сообщения мгновенно",
     textBody:
       "Бот моментально поздоровается при новом обращении клиента, соберет необходимую информацию и сам ответит на шаблонные вопросы.",
     isFlexReversed: false,
   },
   3: {
-    imageSrc:
-      "https://uploads-ssl.webflow.com/60cb5213aeb6e63bf7b6b47a/60da079577254763204d8342_img-4-en.png",
+    posterSrc: "../src/images/messangers-chatbots-poster.jpg",
+    mp4Src: "../src/images/messangers-chatbots.mp4",
+    webmSrc: "../images/attract-customers.webm",
     textHeader: "Чат-боты в мессенджерах",
     textBody:
       "Создавайте полезные чат-боты и вариативные сценарии поддержки в мессенджерах при помощи визуального конструктора чат-ботов. Без программирования и технических навыков.",
@@ -91,9 +103,11 @@ const contentMap = {
   },
 }
 
-import MessangerIcon from "./images/MessangerIcon.vue"
-import SendMessageIcon from "./images/SendMessageIcon.vue"
-import FIlterIcon from "./images/FIlterIcon.vue"
+onMounted(() => {
+  if (!isVideo) return
+  source.value.src = contentMap[props.cardOrder].mp4Src
+  console.log(source.value)
+})
 </script>
 
 <style lang="css" scoped></style>
